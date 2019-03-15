@@ -1,0 +1,7 @@
+<h1>This is the students index page.</h1>
+
+<h2>All students are listed below:</h2>
+
+<% @students.each do |student| %>
+  <%= "#{student.first_name} #{student.last_name}" %>
+<% end %>
